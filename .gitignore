@@ -32,9 +32,8 @@
 *~
 *.swp
 Debug/
-Packaging/*
-BH/Release/*
+ItemLabels/Release/*
 Release/*
 /.vs/*
-/BH.VC.db
+/ItemLabels.VC.db
 /out/*

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AsyncDrawBuffer.cpp" />
+    <ClCompile Include="BH.cpp" />
+    <ClCompile Include="BitReader.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="D2Handlers.cpp" />
+    <ClCompile Include="D2Helpers.cpp" />
+    <ClCompile Include="D2Intercepts.cpp" />
+    <ClCompile Include="D2Stubs.cpp" />
+    <ClCompile Include="D2Version.cpp" />
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Drawing\Advanced\Inputhook\Inputhook.cpp" />
+    <ClCompile Include="Drawing\Advanced\Keyhook\Keyhook.cpp" />
+    <ClCompile Include="Drawing\Basic\Texthook\Texthook.cpp" />
+    <ClCompile Include="Drawing\Hook.cpp" />
+    <ClCompile Include="Drawing\Stats\StatsDisplay.cpp" />
+    <ClCompile Include="Drawing\UI\UI.cpp" />
+    <ClCompile Include="Drawing\UI\UITab.cpp" />
+    <ClCompile Include="JSONObject.cpp" />
+    <ClCompile Include="Modules\Item\Item.cpp" />
+    <ClCompile Include="Modules\Module.cpp" />
+    <ClCompile Include="Modules\ModuleManager.cpp" />
+    <ClCompile Include="MPQInit.cpp" />
+    <ClCompile Include="MPQReader.cpp" />
+    <ClCompile Include="Patch.cpp" />
+    <ClCompile Include="Task.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AsyncDrawBuffer.h" />
+    <ClInclude Include="BH.h" />
+    <ClInclude Include="BitReader.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CommonStructs.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="D2DataTables.h" />
+    <ClInclude Include="D2Handlers.h" />
+    <ClInclude Include="D2Helpers.h" />
+    <ClInclude Include="D2Intercepts.h" />
+    <ClInclude Include="D2Ptrs.h" />
+    <ClInclude Include="D2Strings.h" />
+    <ClInclude Include="D2Structs.h" />
+    <ClInclude Include="D2Stubs.h" />
+    <ClInclude Include="D2Version.h" />
+    <ClInclude Include="Drawing.h" />
+    <ClCompile Include="Drawing\Advanced\Inputhook\Inputhook.cpp" />
+    <ClCompile Include="Drawing\Advanced\Keyhook\Keyhook.cpp" />
+    <ClCompile Include="Drawing\Basic\Texthook\Texthook.cpp" />
+    <ClCompile Include="Drawing\Hook.cpp" />
+    <ClInclude Include="Drawing\Stats\StatsDisplay.h" />
+    <ClInclude Include="Drawing\UI\UI.h" />
+    <ClInclude Include="Drawing\UI\UITab.h" />
+    <ClInclude Include="JSONObject.h" />
+    <ClInclude Include="Modules.h" />
+    <ClInclude Include="Modules\Item\Item.h" />
+    <ClInclude Include="Modules\Module.h" />
+    <ClInclude Include="Modules\ModuleManager.h" />
+    <ClInclude Include="MPQInit.h" />
+    <ClInclude Include="MPQReader.h" />
+    <ClInclude Include="Patch.h" />
+    <ClInclude Include="Task.h" />
+  </ItemGroup>
+</Project>
